@@ -36,6 +36,7 @@ Este projeto consiste em:
 
 
 -Uso da função para o modelo SVC(Support Vector Machine).
+
 -Uso da função para o modelo LinearSVC.
 
 -Uso da função para o modelo DummyClassifier para vermos se nossos modelos estão com uma acurácia aceitável.
