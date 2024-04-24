@@ -2,10 +2,15 @@
 Classificação de veículos usando modelos de Machine Learning
 Este projeto consiste em:
 -Leitura do arquivo csv usando Pandas, depois salvando na variável "dados" e exibindo os 10 primeiros registros do DataFrame.
+
 -Substituição dos nomes das colunas do DataFrame por nomes em português.
+
 -Alteração dos valores da coluna vendido ('no', 'yes') para (0,1). Usando a função Map para realizar essa alteração.
+
 -Utilização do datetime.today().year que retorna o ano atual e armazenando o valor na variável "ano_atual" depois criaremos uma nova coluna que receberá a subtração do ano atual menos os anos da coluna "ano_do_modelo" que resultará na coluna chamada 'idade_do_modelo'.
+
 -Inclusão de uma nova coluna ao Dataframe que receberá todos os valores da coluna 'milhas-por_ano' que serão multiplicados pela constante (1.60934) para ocorrer a transformação dos valores em milhas para quilômetros resultando na nova coluna 'km_por_ano'.
+
 -Excluindo as colunas que não serão usadas para o nosso projeto.
 
 Definindo uma função que recebe o modelo:
