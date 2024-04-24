@@ -15,7 +15,7 @@ Este projeto consiste em:
 
 -Excluindo as colunas que não serão usadas para o nosso projeto.
 
-Definindo uma função que recebe o modelo:
+##Definindo uma função que recebe o modelo:
 
 -Divide o Dataframe em dois, um Dataframe com todas as variáveis menos a alvo e outro com a variável alvo.
 
